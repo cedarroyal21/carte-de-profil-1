@@ -1,0 +1,102 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    font-family: 'poppins',sans-serif;
+
+}
+body{
+    background-color: rgb(240, 248, 248);
+}
+.card{
+    height: 520px;
+    width: 450px;
+    max-width: 450px;
+    background-color: rgb(208, 233, 233);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+
+}
+.card-profil{
+    border: 4px solid#039c48;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 23%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    background-color: azure;
+    z-index: 1;
+}
+.img_profil{
+    width: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50);
+    z-index: 1;
+
+}
+.card_text {
+    margin-top: 23px;
+    text-align: center;
+    font-weight: 500px;
+    
+}
+.card_text h1{
+    margin-bottom: 8px;
+
+}
+.card_text p{
+    font-size: 22px;
+    margin: 0 0 30px 0;
+}
+
+/* icones*/
+.card_icones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+
+.facebook{
+    background-color: #1475e4;
+    border-radius: 30%;
+    color: aliceblue;
+    width: 30px;
+    height: 30px;
+}
+.twitter{
+    background-color: #5aa2f5;
+    border-radius: 30%;
+    width: 30px;
+    height: 30px;
+}
+.linkedin{
+    background-color: #043772;
+    border-radius: 30%;
+    width: 30px;
+    height: 30px;
+}
+.youtube{
+    background-color: rgb(255, 0, 0);
+    border-radius: 30%;
+    width: 32px;
+    height: 32px;
+}
+
+.biogra {
+    display: flex;
+    justify-content: center;
+    border-radius: 30%;
+}
