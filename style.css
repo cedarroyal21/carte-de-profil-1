@@ -7,10 +7,10 @@
 
 }
 body{
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(34, 32, 32);
 }
 .card{
-    height: 580px;
+    height: 650px;
     width: 450px;
     max-width: 450px;
     background-color: rgb(247, 243, 13);
@@ -19,7 +19,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 25px;
-    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px rgba(22, 22, 21, 0.904);
 
 }
 .card-banner{
@@ -64,6 +64,7 @@ body{
 }
 .card_text h1{
     margin-bottom: 8px;
+    padding: 11px;
 
 }
 .card_text p{
@@ -82,14 +83,14 @@ body{
 
 
 .facebook{
-    background-color: #1475e4;
+    background-color: #f4f805;
     border-radius: 20%;
     color: aliceblue;
     width: 30px;
     height: 30px;
 }
 .twitter{
-    background-color: #5aa2f5;
+    background-color: #eff30b;
     border-radius: 20%;
     width: 30px;
     height: 30px;
@@ -97,13 +98,13 @@ body{
     justify-content: center;
 }
 .linkedin{
-    background-color: #043772;
+    background-color: #f8f40b;
     border-radius: 20%;
     width: 30px;
     height: 30px;
 }
 .youtube{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 238, 0);
     border-radius: 20%;
     width: 32px;
     height: 32px;
@@ -119,7 +120,13 @@ body{
 .biogra{
     background-color: rgb(10, 10, 10);
     margin: 17px;
-    border-radius: 20px;
+    border-radius: 20px; background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    min-height: 50px;
+
 }
 .card_infos{
     position: relative;
@@ -133,10 +140,11 @@ button {
     background-color: #1a2027;
     color: white;
     border-color: #dadd06;
-    padding: 10px 30px; 
-    border-radius: 25%; 
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 27%; 
     cursor: pointer; 
-    font-size: 17px; 
+    font-size: 15px; 
     transition: background-color 0.5s; 
 }
 
